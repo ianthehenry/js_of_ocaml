@@ -108,6 +108,8 @@ class type node =
 
     method hasChildNodes : bool t meth
 
+    method contains : node t -> bool meth
+
     method cloneNode : bool t -> node t meth
 
     method compareDocumentPosition : node t -> DocumentPosition.t meth
