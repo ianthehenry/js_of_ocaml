@@ -410,17 +410,17 @@ and touch =
 
     method target : element t optdef readonly_prop
 
-    method screenX : int readonly_prop
+    method screenX : float readonly_prop
 
-    method screenY : int readonly_prop
+    method screenY : float readonly_prop
 
-    method clientX : int readonly_prop
+    method clientX : float readonly_prop
 
-    method clientY : int readonly_prop
+    method clientY : float readonly_prop
 
-    method pageX : int readonly_prop
+    method pageX : float readonly_prop
 
-    method pageY : int readonly_prop
+    method pageY : float readonly_prop
   end
 
 and dragEvent =
