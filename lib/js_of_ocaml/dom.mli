@@ -84,17 +84,17 @@ class type node =
 
     method nodeType : nodeType readonly_prop
 
-    method parentNode : node t opt prop
+    method parentNode : node t opt readonly_prop
 
-    method childNodes : node nodeList t prop
+    method childNodes : node nodeList t readonly_prop
 
-    method firstChild : node t opt prop
+    method firstChild : node t opt readonly_prop
 
-    method lastChild : node t opt prop
+    method lastChild : node t opt readonly_prop
 
-    method previousSibling : node t opt prop
+    method previousSibling : node t opt readonly_prop
 
-    method nextSibling : node t opt prop
+    method nextSibling : node t opt readonly_prop
 
     method namespaceURI : js_string t opt prop
 
