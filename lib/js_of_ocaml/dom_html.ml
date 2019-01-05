@@ -2062,6 +2062,10 @@ class type document =
 
     method activeElement : element t opt readonly_prop
 
+    method elementFromPoint : float -> float -> element t opt meth
+    
+    method elementsFromPoint : float -> float -> element t js_array t opt meth
+
     inherit eventTarget
   end
 
