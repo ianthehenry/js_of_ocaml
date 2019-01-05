@@ -392,7 +392,7 @@ and touchList =
   object
     method length : int readonly_prop
 
-    method item : int -> touch t optdef meth
+    method item : int -> touch t opt meth
   end
 
 and touch =
