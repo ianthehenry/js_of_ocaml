@@ -178,6 +178,16 @@ and element =
 
     method setAttributeNodeNS : attr t -> attr t opt meth
 
+    method parentElement : element t opt readonly_prop
+    
+    method firstElementChild : element t opt readonly_prop
+    
+    method lastElementChild : element t opt readonly_prop
+    
+    method previousElementSibling : element t opt readonly_prop
+    
+    method nextElementSibling : element t opt readonly_prop
+
     method getElementsByTagName : js_string t -> element nodeList t meth
 
     method attributes : attr namedNodeMap t readonly_prop
